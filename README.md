@@ -9,10 +9,6 @@ PL_Project1 - Parser
 ```bash
 python3 .\main.py .\text.txt
 ```
-or
-```bash
-java -jar .\main.py -v .\text.txt
-```
 
 
 ## Exception Handling
@@ -32,7 +28,6 @@ java -jar .\main.py -v .\text.txt
 3. `:=` 할당 연산자가 연속해서 나오는 경우 두번째 연산자부터 무시
 
 
-## Parser_typeA
 ### 목적
 Parser_typeA는 식별자, 상수, 할당 연산자, 산술 연산자, 괄호를 포함하는 간단한 산술 표현식을 파싱하고 계산하는 데 사용됩니다. 이 클래스는 표현식의 구문적 정확성을 검증하고, 계산 결과를 제공합니다.
 
